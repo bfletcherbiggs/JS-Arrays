@@ -323,7 +323,7 @@ sure that it's equal to 4. */
 
   //Your Code Here
   devMountainEmployees[0] = tyler
-  devmountainEmployees[1] = cahlan
+  devMountainEmployees[1] = cahlan
   devMountainEmployees[2] = ryan
   devMountainEmployees[3] = colt
   // console.log(devMountainEmployees)
@@ -333,8 +333,9 @@ Loop through your devMountainEmployees until you find cahlan, then remove him fr
   //Code Here
 
   for (var i=0; i<devMountainEmployees.length; i++){
+    console.log(devMountainEmployees)
     if (devMountainEmployees[i].name === 'Cahlan')
-    {devMountainEmployees.splice(i,i)}
+    {devMountainEmployees.splice(i,1)}
   }
   // console.log(devMountainEmployees)
 
