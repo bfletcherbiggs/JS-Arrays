@@ -94,6 +94,7 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
     var array = []
     array[0] = evens;
     array[1] = odds;
+    //array = evens, odds;
     return array;
 
   }
